@@ -48,4 +48,27 @@ The model follows a simplified U-Net-like structure:
 - **Intersection over Union (IoU)**
 - **Pixel-wise Accuracy**
 
+## Repository Structure
+```
+neural-network-from-scratch/
+├── data/                     # Dataset storage
+├── src/                      # Core scripts
+│   ├── preprocessing.py      # Preprocessing functions
+│   ├── model.py              # CNN architecture
+│   ├── train.py              # Model training
+│   ├── evaluate.py           # Metrics and evaluation
+│   └── utils.py              # Visualization helpers
+├── notebooks/                # Notebooks
+│   └── demo.ipynb            # End-to-end demo
+├── results/                  # Output images & graphs
+│   ├── loss_curve.png
+│   ├── dice_curve.png
+│   └── sample_predictions/   # Sample outputs
+├── docs/
+│   └── project_report.md     # Full documentation
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
 
