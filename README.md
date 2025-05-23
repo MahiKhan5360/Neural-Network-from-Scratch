@@ -122,3 +122,32 @@ Check `notebooks/demo.ipynb` for a guided walkthrough.
 - **Dice Curve:** `results/dice_curve.png`
 - **Predictions:** `results/sample_predictions/`
 
+#### Example:
+| Input MRI | Ground Truth | Predicted Mask |
+|-----------|---------------|----------------|
+
+## Biomedical Relevance
+This project applies neural networks to brain tumor segmentation—a key tool in computer-aided diagnostics. The from-scratch implementation demonstrates mastery of the core mechanics of deep learning while reinforcing its use in precision medicine and biomedical engineering research.
+
+## Future Improvements
+- Implement a full U-Net from scratch.
+- Add attention modules for better performance.
+- Extend to multi-class segmentation.
+- Benchmark against PyTorch models.
+
+## Documentation
+Detailed documentation can be found in `docs/project_report.md`, including:
+- Math behind convolutions and backprop
+- Data exploration & preparation
+- Model details and performance insights
+
+## License
+This project is under the MIT License. See `LICENSE` for details.
+
+## Contact
+Reach out via GitHub Issues or email at `your-email@example.com`. Happy to discuss collaborations or feedback!
+
+## Acknowledgments
+- **Dataset:** Brain MRI Segmentation Dataset by Mateusz Buda (Kaggle)
+- **Inspiration:** Research on deep learning in medical imaging
+
