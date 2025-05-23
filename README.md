@@ -71,4 +71,54 @@ neural-network-from-scratch/
 └── LICENSE
 ```
 
+## Setup
+### Prerequisites
+- Python 3.8+
+- Dependencies (from `requirements.txt`):
+  - NumPy
+  - OpenCV
+  - Matplotlib
+  - Scikit-learn
+
+### Installation
+```bash
+pip install -r requirements.txt
+```
+
+### Dataset Setup
+1. Download the dataset from Kaggle.
+2. Place it inside the `data/` folder.
+3. Or run the setup script:
+```bash
+python src/download_dataset.py
+```
+
+4. Preprocess the data:
+```bash
+python src/preprocessing.py
+```
+
+## Running the Code
+### Train the Model
+```bash
+python src/train.py
+```
+
+### Evaluate the Model
+```bash
+python src/evaluate.py
+```
+
+### Explore Notebook
+Check `notebooks/demo.ipynb` for a guided walkthrough.
+
+## Results
+- **Dice Coefficient:** 0.82
+- **IoU:** 0.75
+- **Pixel Accuracy:** 92%
+
+### Visual Results
+- **Loss Curve:** `results/loss_curve.png`
+- **Dice Curve:** `results/dice_curve.png`
+- **Predictions:** `results/sample_predictions/`
 
